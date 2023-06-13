@@ -17,7 +17,6 @@ topMenuEl.style.backgroundColor = 'var(--top-menu-bg)';
 topMenuEl.className = "flex-around"
 
 for (links of menuLinks){
-    (console.log(links))
     let aElement = document.createElement("a");
     aElement.href = links.href;
     aElement.innerText = links.text;
